@@ -1,10 +1,10 @@
 {
-  "name": "interface",
+  "name": "interface-generator",
   "version": "1.0.0",
   "description": "A script for generating TypeScript interfaces from JSON files",
   "main": "/lib/generate.js",
   "bin": {
-        "generate": "./bin/generate",
+    "generate": "./bin/generate"
   },
   "files": [
     "lib",
