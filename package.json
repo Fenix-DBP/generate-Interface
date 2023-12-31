@@ -1,0 +1,22 @@
+{
+  "name": "generate-interface",
+  "version": "1.0.0",
+  "description": "A script for generating TypeScript interfaces from JSON files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["typescript", "interface", "generator"],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.0.0",
+    "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "@types/commander": "^2.20.0",
+    "@types/fs-extra": "^10.0.10",
+    "typescript": "^4.4.3"
+  }
+}
