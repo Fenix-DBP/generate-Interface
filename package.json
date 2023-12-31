@@ -1,8 +1,15 @@
 {
-  "name": "generate-interface",
+  "name": "interface",
   "version": "1.0.0",
   "description": "A script for generating TypeScript interfaces from JSON files",
-  "main": "index.js",
+  "main": "/lib/generate.js",
+  "bin": {
+        "generate": "./bin/generate",
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
